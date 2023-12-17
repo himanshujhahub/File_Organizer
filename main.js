@@ -6,11 +6,8 @@ let helpObj = require("./commands/help");
 let treeObj = require("./commands/tree");
 let organizeObj = require("./commands/organize");
 
-// console.log(inputArr);
-// node main.js tree "directoryPath"
-// node main.js organize "directoryPath"
-// node main.js help
 let command = inputArr[0];
+
 
 switch (command) {
     case "tree":
@@ -25,4 +22,4 @@ switch (command) {
     default:
         console.log("Please 🙏 Input Right command");
         break;
-}
+} 
